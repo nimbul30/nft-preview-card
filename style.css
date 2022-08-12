@@ -1,0 +1,102 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {}
+
+footer {}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+main {
+  width: 350px;
+  height: 500px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+
+h2,
+p,
+span {
+  font-family: Outfit, sans-serif;
+}
+
+h2 {
+  color: white;
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 20px;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+  margin-left: 20px;
+}
+
+.time {
+  margin-left: 100px;
+  color: hsl(215, 51%, 70%);
+}
+
+
+footer {
+  border-top: 3px solid hsl(215, 32%, 27%);
+  margin-top: 30px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.name {
+  display: inline;
+  color: hsl(215, 51%, 70%);
+}
